@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function Practice</title>
+    </head>
+    <body>
+        <script>
+            /*function greet(name){
+                console.log(`Hello ${name}!`);
+                if (!name){
+                    console.log('Hi there!');
+                }
+            }
+
+            greet('Java');
+            greet(); */
+            
+            function convertToFarhenheit(celsius){
+                return farhenheit = console.log((celsius * 9 / 5) + 32);
+                
+                //return farhenheit
+            }
+            function convertToCelcius(farhenheit){
+                return celsius = console.log((farhenheit - 32) * 5 / 9);
+
+                //return celsius;
+            }
+            //convertToCelcius(86);
+            //convertToFarhenheit(25);
+
+            function convertTemperature(degrees, unit){
+                
+                if (unit === 'C'){
+                    return convertToFarhenheit(degrees);
+                } else if(unit ==='F') {
+                    return convertToCelcius(degrees);
+                }else{
+                    return 'Invalid unit!';
+                }
+            }
+            console.log(convertTemperature(25 + 'C'));
+            console.log(convertTemperature(86 + 'F'));
+
+            
+
+/*7d. Create a function 'convertToFarhenheit(celsius)' that takes anumber
+in degrees Celcius and returns a number in degrees Farhenheit.
+Formula: Farhenheit = (Celcius * 9 / 5) + 32
+
+7e. Create a function 'convertToCelcius(farhenheit)' that takes
+a number in degrees Farhenheit and returns in number in degrees Celsius.
+Formula: Celsius = (Farhenheit - 32) * 5 / 9
+
+7f. Create a function 'convertTemperature(degrees, unit)' that takes a
+number and a unit('C' or 'F'), and converts it into the other unit.
+   convertTemperature(25, 'C')
+   convertTemperature(86, 'F')
+
+Output: 77F
+        30C
+
+Note: return a string, and reuse the functions from 7d and 7e.*/
+        </script>
+    </body>
+</html>
+
